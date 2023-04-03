@@ -17,28 +17,29 @@
 	</head>
 	<body>
 		<!-- page HTML elements goes here for the initial visual DOM -->
-		<!-- Location
-Temperature
-Wind direction
-Wind speed
-Cloud cover
-Humidity-->
 		<h1>Weather APP</h1>
+		<div id="location"><span>Pullman Washington</span></div>
+		<!--I don't know why the location isn't working -->
 		<h2>By Lillian Adkins</h2>
-		<div id="temperature">
-		    
-		</div>
-		<div id="wind-direction">
-		    
+		<article id="flex">
+		<div id="temps">
+		    <p>Temperature</p>
+		    <div id="tempF"><span>F</span></div>		    
+		    <div id="tempC"><span>C</span></div>
 		</div>
 		<div id="wind-speed">
-		    
+		    <p>Wind Speed</p>
+		    <div id="mph"><span>miles</span></div>
+		    <div id="kph"><span>kilometers</span></div>
 		</div>
-		<div id="cloud-cover">
-		    
+		<div id="clouds">
+		    <p>Cloud Cover</p>
+		    <span>cloud cover</span>
 		</div>
-		<div id="humidity">
-		    
+		<div id="humid">
+		    <p>Humdity</p>
+		    <span>Humidity</span>
 		</div>
+		</article>
 	</body>
 </html>

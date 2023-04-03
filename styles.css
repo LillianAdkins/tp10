@@ -1,0 +1,51 @@
+#flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 25%;
+}
+
+#temps {
+  flex: 1;
+  background-color: #7AE7C7;
+  border-radius: 25px;
+  border: 2px solid linen;
+  padding: 20px;
+  width: 80px;
+  align-self: auto
+}
+
+#wind-speed {
+  flex: 2;
+  background-color: #1D2F6F;
+  border-radius: 25px;
+  border: 2px solid linen;
+  padding: 20px;
+  width: 80px;
+  align-self: auto;
+  color: white;
+}
+
+#clouds {
+  flex: 3;
+  background-color: #FAA6FF;
+  border-radius: 25px;
+  border: 2px solid linen;
+  padding: 20px;
+  width: 80px;
+  align-self: auto;
+}
+
+#humid {
+  flex: 4;
+  background-color: #E87461;
+  border-radius: 25px;
+  border: 2px solid linen;
+  padding: 20px;
+  width: 80px;
+  align-self: auto;
+  color: white;
+}
+
+
+/* yellow color FAC748*/
